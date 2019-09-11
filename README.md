@@ -21,7 +21,7 @@ The provided validations include:
 
 ### Get the package
 
-Just ```composer require schuppo/password-strength```.
+Just ```composer require ravimit786/password-strength```.
 
 
 ### Initialize the package
