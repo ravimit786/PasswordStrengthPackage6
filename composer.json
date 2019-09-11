@@ -1,0 +1,41 @@
+{
+    "name": "ravimit786/password-strength",
+    "description": "This package provides a validator for ensuring strong passwords in Laravel 6 applications.",
+    "keywords": [
+        "laravel",
+        "laravel6",
+        "laravel 6",
+        "validation",
+        "password",
+        "password strength"
+    ],
+    "authors": [
+        {
+            "name": "Ravi Sanskrityayan",
+            "email": "ravimit.786@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "*",
+        "illuminate/translation": "*"
+    },
+    "require-dev": {
+        "illuminate/validation": "*",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Schuppo\\PasswordStrength": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Schuppo\\PasswordStrength\\PasswordStrengthServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
